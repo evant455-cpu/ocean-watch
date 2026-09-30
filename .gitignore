@@ -1,0 +1,19 @@
+# Secrets: never commit these
+.env
+*.token
+
+# Generated results (they contain named vessels, keep them local)
+output/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
