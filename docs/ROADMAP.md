@@ -7,10 +7,10 @@
 - [x] AIS-gap events, short-gap shortlist for fishing vessels
 - [x] Encounter check for vessels with repeat gaps
 - [x] Encounter baseline script (written and tested on fake data; live run pending, see below)
+- [x] Encounter baseline run live: A, B, C at or below typical (see findings)
 - [x] Package, CLI, tests, and Colab notebook
 
 ## Next (roughly in priority order)
-- [ ] Run `oceanwatch baseline` against the live API and record the result in `docs/findings/`
 - [ ] Marine Protected Area workflow: look up an MPA id with the GFW References API, then compare fishing
       inside versus along its boundary (needs a `fetch.regions` function and a boundary-distance step)
 - [ ] Run `oceanwatch run` on other regions and compare unidentified shares against the 25.5% baseline

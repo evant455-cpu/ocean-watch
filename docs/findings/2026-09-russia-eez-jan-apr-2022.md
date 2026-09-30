@@ -19,6 +19,14 @@ Region: GFW `public-eez-areas` id 5690. Data: Global Fishing Watch. No vessel na
 ## Interpretation
 Consistent with routine domestic fishing and transshipment. Nothing here is evidence of wrongdoing.
 
+## Baseline result (live run)
+1,610 fishing-carrier encounters across 264 fishing vessels in the region (median 4 per vessel, mean 6.1,
+90th percentile 13, max 54). A had 2 encounters, B had 4, C had 2. In each case a majority of vessels had the
+same or more (A 78.4%, C 78.4%, B 55.3%). So A, B and C sit at or below the typical encounter rate, and their
+encounter counts do not stand out. The 8 fishing-carrier encounters match the earlier check. The baseline is
+biased high (vessels with zero encounters are missing), which only strengthens the "not unusual" reading.
+Their short gaps remain unexplained, but nothing in the encounter data points to anything beyond routine
+operations.
+
 ## Open questions
-- Is the encounter frequency of A, B, C unusual? (`oceanwatch baseline`, live run pending)
 - Is the 25.5% unidentified share high or low compared with other regions?
