@@ -20,7 +20,7 @@
 - [ ] Optional: vessel insights (Insights API) for risk context on individual leads
 
 ## Later ideas
-- [ ] Continuous integration (run `pytest` on every push)
+- [x] Continuous integration (GitHub Actions runs `pytest` on every push)
 - [ ] A small dashboard or static report page for results
 - [ ] Floating-plastic detection from Sentinel-2 imagery (open problem, different data source)
 - [ ] Choose a license before accepting outside contributions

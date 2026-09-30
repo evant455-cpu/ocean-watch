@@ -1,5 +1,8 @@
 # ocean-watch
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evant455-cpu/ocean-watch/blob/main/notebooks/colab_quickstart.ipynb) ![tests](https://github.com/evant455-cpu/ocean-watch/actions/workflows/tests.yml/badge.svg)
+
+
 Open-data ocean monitoring built on [Global Fishing Watch](https://globalfishingwatch.org/our-apis/) (GFW).
 It pulls fishing activity, radar ship detections, and tracker-off ("gap") events for a chosen sea area,
 then turns them into maps and short summaries. Personal, non-commercial, learning-first.
